@@ -1,0 +1,14 @@
+{
+
+    "sidebar": [
+        {
+            "title": "Dasboard",
+            "icon": "fa-solid fa-gauge", 
+            "href":"index.html" 
+        
+          }
+
+    ]
+
+    
+}

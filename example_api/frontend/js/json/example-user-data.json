@@ -1,0 +1,59 @@
+{
+
+    "user": [
+        {
+            "name": "Emin",
+            "surname": "ERCE", 
+            "status":"Fullstack Developer",
+            "salary":10000, 
+            "active":true
+          },
+          {
+            "name": "Emre",
+            "surname": "ÇALIŞKAN", 
+            "status":"Junior Software Developer",
+            "salary":3000, 
+            "active":true
+          },
+          {
+            "name": "Anıl",
+            "surname": "Sürmeli", 
+            "status":"Senior Back-end Developer",
+            "salary":102000, 
+            "active":true
+          },
+
+          {
+            "name": "Hüseyin",
+            "surname": "Korkmaz", 
+            "status":"Junior Front-end Developer",
+            "salary":102000, 
+            "active":true
+          },
+
+          {
+            "name": "Fatih",
+            "surname": "Durmaz", 
+            "status":"Fullstack Developer",
+            "salary":102000, 
+            "active":true
+          },
+
+          {
+            "name": "Ege",
+            "surname": "Durmuş", 
+            "status":"Senior Developer",
+            "salary":102000, 
+            "active":true
+          },
+          {
+            "name": "Melis",
+            "surname": "Yılmaz", 
+            "status":"Fullstack Developer",
+            "salary":102000, 
+            "active":true
+          }
+    ]
+
+    
+}
