@@ -39,6 +39,32 @@ console.log(error)
 
 
 
+function UpdateAlert(){
+
+  Swal.fire({
+    title: `Do you want update`,
+    background: '#19191A',
+    showDenyButton: true,
+    confirmButtonText: 'Yes',
+    denyButtonText: 'No',
+    customClass: {
+      actions: 'my-actions',
+      denyButton: 'order-3',
+      confirmButton: 'order-2',
+    
+    }
+  }).then((result) => {
+    if (result.isConfirmed) {
+      Swal.fire('Saved!', '', 'success')
+    } else if (result.isDenied) {
+      Swal.fire('not saved', '', 'info')
+    }
+  })
+
+
+}
+
+
 
 function dangerAlert(name){
   if(name == undefined){
